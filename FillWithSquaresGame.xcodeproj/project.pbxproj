@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91C519D2969B05A00858ADC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C519C2969B05A00858ADC /* StartViewController.swift */; };
 		A9DF754329689978002DDE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DF754229689978002DDE90 /* AppDelegate.swift */; };
 		A9DF754729689978002DDE90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DF754629689978002DDE90 /* ViewController.swift */; };
 		A9DF754A29689978002DDE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DF754829689978002DDE90 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91C519C2969B05A00858ADC /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A9DF753F29689978002DDE90 /* FillWithSquaresGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FillWithSquaresGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DF754229689978002DDE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9DF754629689978002DDE90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91C519E2969B05F00858ADC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9DF754629689978002DDE90 /* ViewController.swift */,
+				A91C519C2969B05A00858ADC /* StartViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A9DF753629689978002DDE90 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +67,8 @@
 		A9DF754129689978002DDE90 /* FillWithSquaresGame */ = {
 			isa = PBXGroup;
 			children = (
+				A91C519E2969B05F00858ADC /* Controllers */,
 				A9DF754229689978002DDE90 /* AppDelegate.swift */,
-				A9DF754629689978002DDE90 /* ViewController.swift */,
 				A9DF754829689978002DDE90 /* Main.storyboard */,
 				A9DF754B29689979002DDE90 /* Assets.xcassets */,
 				A9DF754D29689979002DDE90 /* LaunchScreen.storyboard */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DF754729689978002DDE90 /* ViewController.swift in Sources */,
+				A91C519D2969B05A00858ADC /* StartViewController.swift in Sources */,
 				A9DF755729689AA1002DDE90 /* UIColor.swift in Sources */,
 				A9DF754329689978002DDE90 /* AppDelegate.swift in Sources */,
 			);

@@ -42,6 +42,10 @@ class ViewController: UIViewController {
         sizeLabel.text = "\(Int(self.viewSize))"
     }
     
+    @IBAction func backButtonPressed(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
+    
     //MARK: - flow funcs
     private func createView(x: CGFloat, y: CGFloat) -> UIView {
         let square = UIView()
